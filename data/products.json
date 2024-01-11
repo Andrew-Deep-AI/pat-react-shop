@@ -1,0 +1,95 @@
+{
+	"products": [
+		{
+			"id": 1,
+			"name": "Quantum Xplorer VR Headset",
+			"photo": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71rlwKXWKFL._AC_UF1000,1000_QL80_.jpg",
+			"description": "Immerse yourself in a new dimension with the QuantumXplorer VR Headset. Experience virtual reality like never before with cutting-edge technology and stunning visuals.",
+			"price": 199
+		},
+		{
+			"id": 2,
+			"name": "Lunar Glow Smart Plant Pot",
+			"photo": "https://images.squarespace-cdn.com/content/v1/51e2b920e4b084ee7b28f247/1558626132856-7WE6P6GWF14TK4YKSO9K/Photo-Lua-1.jpg?format=2500w",
+			"description": "Bring your plants to life with the LunarGlow Smart Plant Pot. This innovative pot uses smart sensors to monitor soil moisture, light levels, and more, ensuring your plants thrive.",
+			"price": 49
+		},
+		{
+			"id": 3,
+			"name": "Galactic Sonic Wireless Earbuds",
+			"photo": "https://m.media-amazon.com/images/I/41Eojkb5r4L.jpg",
+			"description": "Experience out-of-this-world sound quality with GalacticSonic Wireless Earbuds. These sleek and compact earbuds deliver crystal-clear audio and a comfortable fit for all-day listening.",
+			"price": 79
+		},
+		{
+			"id": 4,
+			"name": "AquaWave Smart Water Bottle",
+			"photo": "https://cdn.shopify.com/s/files/1/0607/6157/1468/products/p1.jpg?v=1691416355&width=1000",
+			"description": "Stay hydrated in style with the AquaWave Smart Water Bottle. This intelligent bottle reminds you to drink water regularly, tracks your hydration goals, and even syncs with fitness apps.",
+			"price": 29
+		},
+		{
+			"id": 5,
+			"name": "NeoSky Levitating Speaker",
+			"photo": "https://leviiit.com/cdn/shop/products/product-image-1845942374.jpg?v=1632154213",
+			"description": "Elevate your music experience with the NeoSky Levitating Speaker. Watch in awe as the speaker hovers above its base, delivering 360-degree sound and a mesmerizing visual display.",
+			"price": 149
+		},
+		{
+			"id": 6,
+			"name": "Solar Flare Portable Solar Charger",
+			"photo": "https://opticscamp.com/5950-thickbox_default/12-survivors-solarflare-16-solar-panel-ts28002.jpg",
+			"description": "Harness the power of the sun with the SolarFlare Portable Solar Charger. Charge your devices on the go with this eco-friendly and efficient solar-powered charging solution.",
+			"price": 39
+		},
+		{
+			"id": 7,
+			"name": "Dream Sculpture Sleep Aid Device",
+			"photo": "https://static.independent.co.uk/2023/12/04/09/lucid%20dream%20work%20prophetic%20ai.jpg?quality=75&width=990&crop=3%3A2%2Csmart&auto=webp",
+			"description": "Achieve the perfect night's sleep with the DreamSculpture Sleep Aid Device. This advanced gadget uses soothing lights and sounds to create a calming environment for restful sleep.",
+			"price": 89
+		},
+		{
+			"id": 8,
+			"name": "Mystic Mirror Smart Makeup Mirror",
+			"photo": "https://bernardmarr.com/wp-content/uploads/2021/07/The-Magic-Of-Smart-Mirrors-Artificial-Intelligence-Augmented-Reality-And-The-Internet-of-Things.png",
+			"description": "Transform your beauty routine with the MysticMirror Smart Makeup Mirror. With built-in lights and augmented reality features, achieve flawless makeup application every time.",
+			"price": 119
+		},
+		{
+			"id": 9,
+			"name": "TimeWarp Chrono-Adventurer Watch",
+			"photo": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71YWlZqQFbL._AC_UY1000_.jpg",
+			"description": "Embark on a journey through time with the TimeWarp Chrono-Adventurer Watch. This stylish timepiece combines classic design with modern technology, making it a must-have for watch enthusiasts.",
+			"price": 249
+		},
+		{
+			"id": 10,
+			"name": "Gravity Defy Anti-Gravity Shoes",
+			"photo": "https://cdn11.bigcommerce.com/s-nc8qsb7kb9/images/stencil/1280x1280/products/4430/59779/TB9024MBL_7-INSIDE__90361.1699242964.jpg?c=1",
+			"description": "Walk on air with GravityDefy Anti-Gravity Shoes. These futuristic shoes use innovative technology to reduce impact on your joints, providing unmatched comfort and support.",
+			"price": 129
+		},
+		{
+			"id": 11,
+			"name": "Phoenix Fire Reusable Notebook",
+			"photo": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71cjFXNNAwL._AC_UF894,1000_QL80_.jpg",
+			"description": "Rise from the ashes of traditional notebooks with the PhoenixFire Reusable Notebook. Write, erase, and reuse this eco-friendly notebook for endless creativity without wasting paper.",
+			"price": 19
+		},
+		{
+			"id": 12,
+			"name": "Cosmic Breeze Personal Air Purifier",
+			"photo": "https://probreeze.com/cdn/shop/products/PB-P071_1500x.png?v=1682110665",
+			"description": "Breathe in the freshness of space with the CosmicBreeze Personal Air Purifier. This compact device uses advanced filtration technology to purify the air around you, promoting a healthier environment.",
+			"price": 69
+		},
+		{
+			"id": 13,
+			"name": "Quantum Cuisine Molecular Gastronomy Kit",
+			"photo": "https://www.enjoymedia.ch/images/molekular/molekularkueche_geschenkset_1.jpg",
+			"description": "Unleash your inner chef with the QuantumCuisine Molecular Gastronomy Kit. Experiment with avant-garde cooking techniques and create culinary masterpieces that defy traditional boundaries.",
+			"price": 159
+		}
+	]
+}

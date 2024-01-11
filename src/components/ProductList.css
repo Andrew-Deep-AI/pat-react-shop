@@ -1,0 +1,75 @@
+/* ProductList.css */
+
+/* Ensuring the container is responsive */
+.products-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap: 20px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/* Styling individual product cards */
+.product {
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 16px;
+	width: 100%;
+	max-width: 500px; /* Adjust the max-width as needed */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+	background-color: #fff;
+	transition: 0.3s ease;
+}
+
+.product img {
+	width: 100%;
+	height: auto;
+	border-radius: 4px;
+}
+
+.product h3 {
+	margin: 10px 0;
+}
+.product-description {
+	flex: auto;
+}
+
+.product .price {
+	font-weight: bold;
+	/* color: #e44d26; */
+	margin-top: 5px;
+}
+
+/* Button styling */
+
+.product:hover {
+	box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+	border: 1px solid #a8a8a8;
+}
+
+.product,
+.product:link,
+.product:visited,
+.product:hover,
+.product:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+	.products-list {
+		justify-content: center;
+	}
+}
+
+@media (max-width: 480px) {
+	.product {
+		width: 90%;
+	}
+}

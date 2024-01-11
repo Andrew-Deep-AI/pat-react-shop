@@ -1,0 +1,52 @@
+/* AboutPage.css */
+.about-content {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+}
+
+.about-section {
+	margin-bottom: 30px;
+}
+
+.about-section h2 {
+	color: #333;
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+.about-section p,
+.about-section ul {
+	color: #555;
+	line-height: 1.6;
+}
+
+.about-section ul {
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+.about-section li {
+	margin-bottom: 5px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 2em;
+	color: #222;
+}
+
+.about-image {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+	.about-image {
+		width: 100%;
+	}
+}
