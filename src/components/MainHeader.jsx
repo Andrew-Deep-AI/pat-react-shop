@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 import ShoppingCartButton from "./ShoppingCartButton";
 
-const Header = ({ cartCount }) => {
+const Header = ({ cartCount, handleSearchChange, searchQuery }) => {
 	return (
 		<header className="header">
 			<div className="logo">
@@ -23,6 +23,14 @@ const Header = ({ cartCount }) => {
 				</ul>
 			</nav>
 			<ShoppingCartButton cartCount={cartCount} />
+			<div className="search">
+				<input
+					type="text"
+					placeholder="Search..."
+					value={searchQuery}
+					onChange={handleSearchChange}
+				/>
+			</div>
 		</header>
 	);
 };

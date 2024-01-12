@@ -1,12 +1,13 @@
+/* eslint-disable react/prop-types */
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import "./ContactPage.css";
 
-export default function ContactPage() {
+export default function ContactPage({ cartCount }) {
 	return (
 		<>
-			<Header />
-			<p className="main-content">
+			<Header cartCount={cartCount} />
+			<div className="main-content">
 				<div className="contact-container">
 					<h1>Contact Us</h1>
 					<form className="contact-form">
@@ -22,7 +23,7 @@ export default function ContactPage() {
 						<button type="submit">Send Message</button>
 					</form>
 				</div>
-			</p>
+			</div>
 			<Footer />
 		</>
 	);

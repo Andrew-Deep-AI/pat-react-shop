@@ -1,14 +1,15 @@
+/* eslint-disable react/prop-types */
 import { useParams } from "react-router-dom";
-import productsJson from "/data/products.json";
+// import productsJson from "/data/products.json";
 import "./ProductContent.css";
 
-export default function ProductContent() {
+export default function ProductContent({ productsData, handleAddProduct }) {
 	const { productId } = useParams(); // This hook allows you to grab the productId from the URL
 
 	// Fetch product details from an API or state management using the productId
 	// ...
 
-	const productsData = productsJson.products;
+	// const productsData = productsJson.products;
 	const product = productsData.find((product) => product.id === +productId);
 
 	return (
@@ -19,7 +20,12 @@ export default function ProductContent() {
 				<h3>Product Details</h3>
 				<p className="product-description">{product.description}</p>
 				<p className="price">${product.price}</p>
-				<button className="product-button">Add to Cart</button>
+				<button
+					className="product-button"
+					onClick={() => handleAddProduct(product.id)}
+				>
+					Add to Cart
+				</button>
 			</div>
 		</div>
 	);

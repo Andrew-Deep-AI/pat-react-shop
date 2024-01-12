@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import "./AboutPage.css";
 
 import Footer from "../components/Footer";
@@ -8,10 +9,10 @@ import OurMissionImage from "../assets/our-mission.avif";
 import OurValuesImage from "../assets/our-values.avif";
 import MeetTheTeamImage from "../assets/meet-the-team.avif";
 
-export default function AboutPage() {
+export default function AboutPage({ cartCount }) {
 	return (
 		<>
-			<Header />
+			<Header cartCount={cartCount} />
 			<div className="main-content">
 				<div className="about-content">
 					<h1>About Us</h1>

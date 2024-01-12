@@ -18,8 +18,68 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+li,
+ul {
 	margin: 0;
+}
+ul {
+	/* list-style: none; */
+	/* padding: 0; */
+}
+
+/* Обнуление стилей */
+
+/* Установка базовых значений для всех элементов */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Установка основного шрифта и цвета текста */
+body {
+	/* font-family: Arial, sans-serif; */
+	/* color: #333; */
+}
+
+/* Сброс стилей для списка */
+ul,
+ol {
+	margin: 0;
+	list-style: none;
+}
+
+/* Сброс стилей для заголовков */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+}
+
+/* Сброс стилей для ссылок */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Сброс стилей для изображений */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Добавление стилей сброса для форм */
+input,
+textarea,
+button {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
 }
 
 /* a {

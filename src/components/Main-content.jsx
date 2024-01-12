@@ -1,11 +1,12 @@
+/* eslint-disable react/prop-types */
 import ProductList from "./ProductList";
 
-const MainContent = () => {
+const MainContent = ({ productsData }) => {
 	return (
 		<>
 			<main className="main-content">
 				<h1>Products</h1>
-				<ProductList />
+				<ProductList productsData={productsData} />
 			</main>
 		</>
 	);
